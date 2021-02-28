@@ -1,0 +1,604 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body{
+	background-color: #f8f3e9;
+}
+
+header{
+	height: 100px;
+	border-radius: 15px;
+	background: #1F66D1;
+}
+
+header h1{
+	font-family: sans-serif;
+	font-size: 5em;
+	text-align: center;
+	color: white;
+}
+
+.objetivo{
+	margin-top: 10px;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #1F66D1;
+	border-radius: 15px;
+}
+
+.objetivo:hover{
+	background-color: #e3e3e3;
+}
+.infoTecnica:hover{
+	background-color: #e3e3e3;
+}
+
+.infoDesarrollo:hover{
+	background-color: #e3e3e3;
+}
+
+.compu{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 45px;
+	color: #EE7913;
+    text-shadow: 3px 3px 4px #696;
+}
+
+.tutuloTec{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+    font-family: sans-serif;
+    font-weight : bold;
+	font-size: 25px;
+	color: #1F66D1;	
+}
+
+.tutuloDes{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+    font-family: sans-serif;
+    font-weight : bold;
+	font-size: 25px;
+	color: #1F66D1;	
+}
+
+.texto-Experiencia{
+	padding:5px;
+	font-size: 22px;
+	font-family:sans-serif;
+}
+
+.texto-Experiencia:hover{
+	color: rgb(238, 121, 19, .8);
+	cursor:pointer;
+}
+
+.iconos1{
+	margin-top: 11px;
+	text-align: center;
+	color: #EE7913;
+	padding-left: 100px;
+	font-size: 20px;
+	text-shadow: 3px 3px 4px #696;
+}
+
+.iconos2{
+	margin-top: 5px;
+	text-align: center;
+	color: #EE7913;
+	padding-left: 100px;
+	font-size: 20px;
+	text-shadow: 3px 3px 4px #696;
+}
+
+.iconos3{
+	margin-top: 2px;
+	padding-right: 10px;
+	font-size: 20px;
+	color: black;
+}
+
+.texto-Experiencia2:hover{
+	color: rgb(238, 121, 19, .8);
+	cursor:pointer;
+}
+
+.texto-Experiencia2{
+	margin: 0;
+	font-size: 22px;
+	font-family: sans-serif;
+}
+
+footer{
+	clear: both;
+   	bottom:0px;
+	height: 100px;
+	background: #1F66D1;
+	border-radius: 15px;
+	padding-top: 35px;
+	/*text-align: center;*/
+	color: white;
+}
+
+.infofooter{
+	padding-left: 50px;
+}
+
+/*Media Quaryes*/
+/* Pantalla de escritorio grande - Large (lg)*/
+@media(min-width: 1200px){
+
+	.principal{
+		height: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.infoTecnica{
+		height: 400px;
+		width: 49.3%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+
+	.infoDesarrollo{
+		height: 400px;
+		width: 49.3%;
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+}
+
+/* Pantalla de escritorio mediana - Medium (md)*/
+
+@media(max-width: 1199px) and (min-width: 992px){
+
+	.principal{
+		height: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.infoTecnica{
+		height: 420px;
+		width: 49.3%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+
+	.infoDesarrollo{
+		height: 420px;
+		width: 49.3%;
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+
+}
+
+/* Pantalla de Tablet - Small (sm)*/
+@media(max-width: 991px) and (min-width: 768px){
+
+	header h1{
+		font-family: sans-serif;
+		font-size: 4em;
+		text-align: center;
+		padding-top: 10px;
+		color: white;
+	}
+
+	.objetivo{
+		margin-top: 10px;
+		height: 100px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #1F66D1;
+		border-radius: 15px;
+	}
+
+	.compu{
+		padding-top: 10px;
+		text-align: center;
+		font-size: 45px;
+		color: #EE7913;
+    	text-shadow: 3px 3px 4px #696;
+	}
+
+	.principal{
+		height: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.infoTecnica{
+		height: 600px;
+		width: 49%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+
+	.infoDesarrollo{
+		height: 600px;
+		width: 49%;
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+
+	.tutuloTec{
+		margin-top: 45px;
+		margin-bottom: 45px;
+		text-align: center;
+    	font-family: sans-serif;
+    	font-weight : bold;
+		font-size: 25px;
+		color: #1F66D1;	
+	}
+
+	.tutuloDes{
+		margin-top: 20px;
+		margin-bottom: 15px;
+		text-align: center;
+    	font-family: sans-serif;
+    	font-weight : bold;
+		font-size: 25px;
+		color: #1F66D1;	
+	}
+
+	.iconos1{
+		margin-top: 31px;
+		text-align: center;
+		color: #EE7913;
+		padding-left: 100px;
+		font-size: 20px;
+		text-shadow: 3px 3px 4px #696;
+	}
+
+	.texto-Experiencia{
+		padding:5px;
+		font-size: 21px;
+		text-align: center;
+		font-family:sans-serif;
+		margin-top: 20px;
+	}
+
+	.texto-Experiencia:hover{
+		color: rgb(238, 121, 19, .8);
+		cursor:pointer;
+	}
+
+	.iconos2{
+		margin-top: 21px;
+		text-align: center;
+		color: #EE7913;
+		padding-left: 100px;
+		font-size: 20px;
+		text-shadow: 3px 3px 4px #696;
+	}
+
+	.texto-Experiencia2{
+		padding:5px;
+		font-size: 21px;
+		text-align: center;
+		font-family: sans-serif;
+		margin-top: 10px;
+	}
+
+	.texto-Experiencia2:hover{
+		color: rgb(238, 121, 19, .8);
+		cursor:pointer;
+	}
+
+	footer{
+		clear: both;
+   		bottom:0px;
+		height: 100px;
+		background: #1F66D1;
+		border-radius: 15px;
+		padding-top: 20px;
+		text-align: center;
+		color: white;
+	}
+
+	.infofooter{
+		padding-left: 10px;
+	}
+
+	.iconos3{
+		margin-top: 2px;
+		padding-right: 5px;
+		font-size: 18px;
+		color: black;
+	}
+}
+
+@media(max-width: 767px) and (min-width: 576px){
+
+	header h1{
+		font-family: sans-serif;
+		font-size: 3em;
+		text-align: center;
+		padding-top: 15px;
+		color: white;
+	}
+
+	.objetivo{
+		margin-top: 10px;
+		height: 90px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #1F66D1;
+		border-radius: 15px;
+	}
+
+	.principal{
+		height: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.infoTecnica{
+		height: 650px;
+		width: 49%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+
+	.infoDesarrollo{
+		height: 650px;
+		width: 49%;
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-bottom: 15px;
+		padding: 20px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+		float: left;
+	}
+
+	.tutuloDes{
+		margin-top: 20px;
+		margin-bottom: 15px;
+		text-align: center;
+    	font-family: sans-serif;
+    	font-weight : bold;
+		font-size: 25px;
+		color: #1F66D1;	
+	}
+
+	.iconos1{
+		margin-top: 30px;
+		text-align: center;
+		color: #EE7913;
+		padding-left: 100px;
+		font-size: 20px;
+		text-shadow: 3px 3px 4px #696;
+	}
+
+	.texto-Experiencia{
+		padding:5px;
+		font-size: 21px;
+		text-align: center;
+		font-family:sans-serif;
+		margin-top: 20px;
+	}
+
+	.texto-Experiencia:hover{
+		color: rgb(238, 121, 19, .8);
+		cursor:pointer;
+	}
+
+	.iconos2{
+		margin-top: 20px;
+		text-align: center;
+		color: #EE7913;
+		padding-left: 100px;
+		font-size: 20px;
+		text-shadow: 3px 3px 4px #696;
+	}
+
+	.texto-Experiencia2{
+		padding:5px;
+		font-size: 21px;
+		text-align: center;
+		font-family: sans-serif;
+		margin-top: 10px;
+	}
+
+	.texto-Experiencia2:hover{
+		color: rgb(238, 121, 19, .8);
+		cursor:pointer;
+	}
+
+	footer{
+		clear: both;
+   		bottom:0px;
+		height: 100px;
+		background: #1F66D1;
+		border-radius: 15px;
+		padding-top: 15px;
+		text-align: center;
+		color: white;
+	}
+
+	.infofooter{
+		padding-left: 5px;
+	}
+
+	.iconos3{
+		margin-top: 2px;
+		padding-right: 5px;
+		font-size: 18px;
+		color: black;
+	}
+
+}
+
+/* Pantalla de Phones - Extra Small (xs) */
+@media(max-width: 575px){
+
+	header h1{
+		font-family: sans-serif;
+		font-size: 2em;
+		text-align: center;
+		padding-top: 25px;
+		color: white;
+	}
+
+	.objetivo{
+		margin-top: 10px;
+		height: 100px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #1F66D1;
+		border-radius: 15px;
+	}
+
+	.compu{
+		padding-top: 10px;
+		text-align: center;
+		font-size: 45px;
+		color: #EE7913;
+    	text-shadow: 3px 3px 4px #696;
+	}
+
+	.principal{
+		height: 100%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.infoTecnica{
+		height: 600px;
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+	}
+
+	.infoDesarrollo{
+		height: 750px;
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #EE7913;
+		border-radius: 15px;
+	}
+
+	.iconos1{
+		margin-top: 11px;
+		text-align: center;
+		color: #EE7913;
+		padding-left: 100px;
+		font-size: 20px;
+		text-shadow: 3px 3px 4px #696;
+	}
+
+	.texto-Experiencia{
+		padding:5px;
+		font-size: 22px;
+		text-align: center;
+		font-family:sans-serif;
+	}
+
+	.texto-Experiencia:hover{
+		color: rgb(238, 121, 19, .8);
+		cursor:pointer;
+	}
+
+	.iconos2{
+		margin-top: 11px;
+		text-align: center;
+		color: #EE7913;
+		padding-left: 100px;
+		font-size: 20px;
+		text-shadow: 3px 3px 4px #696;
+	}
+
+	.texto-Experiencia2{
+		padding:5px;
+		font-size: 22px;
+		text-align: center;
+		font-family: sans-serif;
+	}
+
+	.texto-Experiencia2:hover{
+		color: rgb(238, 121, 19, .8);
+		cursor:pointer;
+	}
+
+	footer{
+		clear: both;
+   		bottom:0px;
+		height: 150px;
+		background: #1F66D1;
+		border-radius: 15px;
+		padding-top: 30px;
+		/*text-align: center;*/
+		color: white;
+	}
+
+	.infofooter{
+		padding-left: 30px;
+	}
+}
